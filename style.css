@@ -1,0 +1,38 @@
+header{
+    padding: 30px;
+    background-color: rgb(77, 77, 77);
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.searchSection {
+    float: left;
+    width: 50% !important;
+    padding: 30px !important;
+    background-color: rgb(243, 243, 243);
+}
+
+.results {
+    float: left;
+    width: 50% !important;
+    padding: 20px !important;
+}
+
+.weatherToday {
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+    padding: 20px;
+}
+.days {
+    margin: 10px !important;
+}
+
+
+@media only screen and (min-width: 1261px){
+    .searchSection{
+        width: 25% !important;
+    }
+    .results{
+        width: 66.66% !important;
+    }
+}
